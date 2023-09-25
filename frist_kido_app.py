@@ -2,6 +2,9 @@ import streamlit as st
 import time
 # from dotenv import load_dotenv
 # load_dotenv()
+import os
+os.environ['OPENAI_API_KEY'] = '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'
+
 from langchain.chat_models import ChatOpenAI
 chat_model = ChatOpenAI()
 # from langchain.llms import OpenAI
