@@ -3,7 +3,7 @@ import time
 # from dotenv import load_dotenv
 # load_dotenv()
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 
 from langchain.chat_models import ChatOpenAI
 chat_model = ChatOpenAI()
